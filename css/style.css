@@ -1,0 +1,120 @@
+@font-face {
+    font-style: normal;
+    font-weight: 400; 
+    src: url('LabGrotesque-Regular.woff2') format('woff2'); 
+    font-family: 'LabGrotesque';
+    font-display: swap;
+}
+
+@font-face {
+    font-style: normal;
+    font-weight: 500; 
+    src: url('LabGrotesque-Medium.woff2') format('woff2'); 
+    font-family: 'LabGrotesque';
+    font-display: swap;
+}
+
+.item{
+    width: 500px;
+    height: 630px;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    border-radius: 30px;
+    background-color:white;
+}
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'LabGrotesque';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+    background-color: grey;
+}
+
+.wrapper{
+    max-width: 430px;
+    max-height: 550px;
+    margin: 0 auto;
+}
+
+.header{
+    font-family: 'LabGrotesque';
+    font-size: 28px;
+    font-weight: 500; 
+    line-height: 40px;
+    position: absolute ;
+    margin-top: 32px;
+    text-decoration: none;
+    
+}
+.close_item{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 16px;
+    background-color: white;
+}
+.close{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    color: #EA0029;
+
+}
+
+.header_2{
+    font-weight: 400;
+    size: 14px;
+    line-height: 24px;
+    padding-top: 80px;
+    color: #808080;
+}
+.header_3{
+    font-weight: 500;
+    size: 14px;
+    line-height: 24px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.item_with_money{
+    width: 430px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #DFE3E6;
+    background-color: white;
+}
+.money{
+    font-weight: 400;
+    size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+    line-height: 24px;
+}
+.header_4{
+    font-weight: 500;
+    size: 14px;
+    line-height: 24px;
+    padding-top: 5px;
+    color: #EA0029;
+}
+.header_5{
+    font-weight: 500;
+    size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+
